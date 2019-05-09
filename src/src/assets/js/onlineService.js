@@ -4,3 +4,12 @@ ud({
     "code": "1jce41d",
     "link": "https://zhutong.s2.udesk.cn/im_client/?web_plugin_id=1931"
 });
+
+//新增助通移动端官网加上统计代码，及网页回呼功能(2019-05-09)
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?a74c3bd9d4c042d8087dabfd55c798f6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();

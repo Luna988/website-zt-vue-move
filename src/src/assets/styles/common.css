@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+ul,ol{list-style:none;}
+a{text-decoration:none;color: #666}
+a:hover{color:rgb(64,158,255)}
+a:focus{outline: none}
+a:focus{border: none}
+img{border:0;}
+input,button{vertical-align:middle;border:none;}
+textarea{border:none;resize:none;}
+body{color: #666;font-family: "Microsoft YaHei"; font-size:14px;}
+/*清除浮动*/
+.clearfix{*zoom:1;} /* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+table tr td,table{border-collapse:collapse;}
+html,body{
+    /* height:auto; */
+    height: 100%;
+}
+input[type=text]:focus,input[type=text]:active{
+    box-shadow: none;
+    /* border: none; */
+}
+
+/* 颜色 */
+
+/* margin */
+
+/* 什么是物联网卡-解决方案（现状） */
+/* //什么是物联网卡 */
